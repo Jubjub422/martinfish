@@ -1,7 +1,7 @@
 @import url("fishsections.css");
 
 *{
-    border: 1px dotted darkgoldenrod;
+    border: 1px dotted rgb(255, 183, 3);
 }
 
 .title{

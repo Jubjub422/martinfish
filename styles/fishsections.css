@@ -1,0 +1,25 @@
+.fish{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.fish__image{
+    flex:1;
+    max-width: 125px;
+}
+.fish__name{
+    flex: 1;
+    text-align: center;
+    /* writing-mode: vertical-rl; */
+    margin:auto;
+}
+.fish__info{
+    flex:6;
+    display:flex;
+}
+
+.fish__spec{
+   flex: 2;
+   padding: 2rem;
+   line-height: 2.2rem;
+}

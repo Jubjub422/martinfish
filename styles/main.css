@@ -1,0 +1,49 @@
+@import url("fishsections.css");
+
+*{
+    border: 1px dotted darkgoldenrod;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    color:blue;
+}
+.fishlist{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.left{
+    flex:2;
+}
+.right{
+    flex:1;
+}
+
+/* .fishList{
+    display:flex;
+    justify-content: center;
+    flex-flow:column wrap;
+}
+.fish{
+    display:flex;
+    justify-content: center;
+    padding: 3em;
+}
+.info{
+    display:flex;
+    justify-content: center;
+    width: 25%;
+    background-color: darkcyan;
+}
+
+.fishImage{
+    width:150px;
+}
+.tankCare{
+    display:flex;
+    width:19%;
+    margin-bottom: 1px;
+    background-color: darkcyan;
+} */
+
